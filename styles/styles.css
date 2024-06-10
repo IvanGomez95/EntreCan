@@ -187,12 +187,12 @@ body {
 
 
 .fade-in-element {
-    opacity: 0;
+    opacity: -1;
     transition: opacity 3s ease; /* Duración de la animación de fade-in ajustada a 1 segundo */
 }
 
 .fade-in-visible {
-    opacity: 10;
+    opacity: 3;
 }
 
 
