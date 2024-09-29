@@ -455,7 +455,23 @@ body {
 }
 
 
+@media (min-width: 1440px) {
+    .home-img img {
+        width: 35vw;
+    }
 
+    .professional-name {
+        font-size: 24px;
+    }
+
+    .professional-description {
+        font-size: 18px;
+    }
+
+    .professional-img {
+        width: 35vw;
+    }
+}
 
 
 
