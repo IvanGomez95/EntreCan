@@ -239,23 +239,45 @@ body {
     }
 }
 
-.professional-bio {
-    padding-top: 20px; /* Ajusta el espaciado superior */
-    padding-bottom: 20px; /* Ajusta el espaciado inferior */
+.professional-img {
+    width: 30vw; /* Adjust the width as needed */
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Add some space to the right */
+    float: left; /* Allow text to wrap around */
 }
 
+.professional-section {
+    padding: 80px 20px; /* Adjust padding to ensure text is not too close to edges */
+    overflow: auto; /* Clear floats */
+}
+
+/* Adjust the professional-bio section for better spacing */
+.professional-bio {
+    padding-top: 20px; /* Top padding */
+    padding-bottom: 20px; /* Bottom padding */
+    clear: both; /* Ensure it starts below floated elements */
+}
+
+/* Ensure text is displayed nicely next to the image */
 .professional-name {
     font-size: 24px;
     font-weight: bold;
-    color: white; /* Cambia el color del nombre a blanco */
+    color: white; 
+    margin-top: 10px; /* Add margin to separate from image */
 }
 
 .professional-description {
     font-size: 18px;
-    color: white; /* Cambia el color del texto de la descripción a blanco */
-    line-height: 1.5; /* Ajusta el interlineado para mejorar la legibilidad */
-    text-align:justify;
+    color: white;
+    line-height: 1.5; 
+    text-align: justify;
+    margin-top: 10px; /* Add margin to separate from the name */
 }
+
+
+
 
 
 
@@ -425,6 +447,10 @@ body {
 
     .professional-description {
         font-size: 18px;
+    }
+
+    .professional-img {
+        width: 35vw;
     }
 }
 
